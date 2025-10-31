@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="635f0337-60af-4f54-8985-21bca81a7719" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/.idea.Duckov/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/.idea.Duckov/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Art/Environment/Prefab/House/Pfb_House_06_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../Art/Environment/Prefab/House/Pfb_House_06_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Base.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Level_OpenWorldTest/FarmPathChche.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Level_OpenWorldTest/FarmPathChche.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Level_OpenWorldTest/Level_Farm_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Level_OpenWorldTest/Level_Farm_01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Level_OpenWorldTest/Level_Farm_Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Level_OpenWorldTest/Level_Farm_Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SubProjects/UI/GameplayUI/Prefabs/Options/OptionsPanelTabButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../SubProjects/UI/GameplayUI/Prefabs/Options/OptionsPanelTabButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SubProjects/UI/GameplayUI/Prefabs/OptionsPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../SubProjects/UI/GameplayUI/Prefabs/OptionsPanel.prefab" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2xU9cUJPxfuWWEClWDmkF4e5g1a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="635f0337-60af-4f54-8985-21bca81a7719" name="更改" comment="" />
+      <created>1747981864910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747981864910</updated>
+      <workItem from="1747981865878" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

@@ -1,0 +1,309 @@
+Event	ID	Name			Wwise Object Path	Notes
+	67513691	e_UI_MasterKey_Register			\Default Work Unit\UI\MasterKeys\e_UI_MasterKey_Register	
+	87053332	e_UI_Perk_Begin			\Default Work Unit\UI\Perks\e_UI_Perk_Begin	
+	269476604	e_JNTM			\Default Work Unit\Combat\Special\e_JNTM	
+	271041582	e_UI_Buy			\Default Work Unit\UI\Trading\e_UI_Buy	
+	341680682	e_UI_Quest_Complete			\Default Work Unit\UI\Quest\e_UI_Quest_Complete	
+	347124754	e_UI_Perk_Activate			\Default Work Unit\UI\Perks\e_UI_Perk_Activate	
+	358098969	e_UI_PressStart			\Default Work Unit\UI\MainMenu\e_UI_PressStart	
+	419603978	e_HitMarker			\Default Work Unit\Combat\e_HitMarker	
+	460213586	e_BunkerGate_Close			\Default Work Unit\Misc\e_BunkerGate_Close	
+	592924466	e_UI_Close			\Default Work Unit\UI\e_UI_Close	
+	601977303	e_UI_ShowDestination			\Default Work Unit\UI\MapSelection\e_UI_ShowDestination	
+	855907690	e_Shoot			\Default Work Unit\Guns\e_Shoot	
+	938351621	e_Dash			\Default Work Unit\Character\e_Dash	
+	1002388687	e_ReloadSuccess			\Default Work Unit\Guns\e_ReloadSuccess	
+	1181280709	e_Quak_Scream			\Default Work Unit\Character\Quaks\e_Quak_Scream	
+	1183946895	e_UI_TradingDeal			\Default Work Unit\UI\Trading\e_UI_TradingDeal	
+	1223895249	e_Ambient_Default			\Default Work Unit\Ambient\e_Ambient_Default	
+	1227034388	e_Camera_Shoot			\Default Work Unit\UI\Camera\e_Camera_Shoot	
+	1253375443	e_ShootSilence			\Default Work Unit\Guns\e_ShootSilence	
+	1377283426	e_CritHitMarker			\Default Work Unit\Combat\e_CritHitMarker	
+	1456472202	e_UI_Evacuate_LvUp			\Default Work Unit\UI\Evacuate\e_UI_Evacuate_LvUp	
+	1585077585	e_Ambient_Buzz			\Default Work Unit\Ambient\e_Ambient_Buzz	
+	1672215600	e_BulletHit_Metal			\Default Work Unit\Combat\Hits\e_BulletHit_Metal	
+	1690270502	e_Building_Constructed_Default			\Default Work Unit\Buildings\e_Building_Constructed_Default	
+	1802190095	e_Item_Bullet			\Default Work Unit\UI\Items\e_Item_Bullet	
+	1851581212	e_Explode			\Default Work Unit\Combat\e_Explode	
+	1874739547	e_KillMarker			\Default Work Unit\Combat\e_KillMarker	
+	1921381684	e_Quak_Talk			\Default Work Unit\Character\Quaks\e_Quak_Talk	
+	1952984261	e_Explode_Sandbag			\Default Work Unit\Combat\e_Explode_Sandbag	
+	1976803418	e_Item_Pill			\Default Work Unit\UI\Items\e_Item_Pill	
+	2120285428	event_DropItem			\Default Work Unit\Misc\event_DropItem	
+	2185226824	e_Death_Blood			\Default Work Unit\Combat\Death\e_Death_Blood	
+	2224696771	e_FootStep			\Default Work Unit\Character\e_FootStep	
+	2263502700	e_Bullet_Flyby			\Default Work Unit\Guns\e_Bullet_Flyby	
+	2311840139	e_UI_Evacuate_ExpUp			\Default Work Unit\UI\Evacuate\e_UI_Evacuate_ExpUp	
+	2438873992	e_PlayDeathMusic			\Default Work Unit\e_PlayDeathMusic	
+	2639066993	e_Gun_Unload			\Default Work Unit\UI\e_Gun_Unload	
+	2679956744	e_UI_Cancel			\Default Work Unit\UI\e_UI_Cancel	
+	2830227305	e_BulletHit_Blood			\Default Work Unit\Combat\Hits\e_BulletHit_Blood	
+	2864871794	e_Null			\Default Work Unit\e_Null	
+	2951807097	e_MeleeAttack_Slash			\Default Work Unit\Combat\Melee\e_MeleeAttack_Slash	
+	3064851776	e_BulletHit_Solid			\Default Work Unit\Combat\Hits\e_BulletHit_Solid	
+	3154379903	e_PlayBGM			\Default Work Unit\e_PlayBGM	
+	3167903558	e_ReloadStart			\Default Work Unit\Guns\e_ReloadStart	
+	3171476489	e_StopBGM			\Default Work Unit\e_StopBGM	
+	3359308544	e_Quak_Alert			\Default Work Unit\Character\Quaks\e_Quak_Alert	
+	3396949510	e_BunkerGate_Open			\Default Work Unit\Misc\e_BunkerGate_Open	
+	3426596860	e_TaskFinished			\Default Work Unit\UI\Quest\e_TaskFinished	
+	3550460167	e_UI_Quest_Accept			\Default Work Unit\UI\Quest\e_UI_Quest_Accept	
+	3591064122	e_StopAll			\Default Work Unit\e_StopAll	
+	3764302022	e_Item_Default			\Default Work Unit\UI\Items\e_Item_Default	
+	3830164206	e_UI_Sell			\Default Work Unit\UI\Trading\e_UI_Sell	
+	3836649484	e_Building_Constructed_Wood			\Default Work Unit\Buildings\e_Building_Constructed_Wood	
+	3892856319	e_Death_Explode			\Default Work Unit\Combat\Death\e_Death_Explode	
+	3920786451	e_Quak_Suspicion			\Default Work Unit\Character\Quaks\e_Quak_Suspicion	
+	3943259749	e_UI_ShowMap			\Default Work Unit\UI\Map\e_UI_ShowMap	
+	4064830006	e_UI_Confirm			\Default Work Unit\UI\e_UI_Confirm	
+	4199858467	e_UI_Pop			\Default Work Unit\UI\e_UI_Pop	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1036554874	BGMSelector_Base			\Default Work Unit\BGMSelector_Base	
+	1613795745	gunType			\Default Work Unit\gunType	
+	2354761529	VoiceType			\Default Work Unit\VoiceType	
+
+Switch	ID	Name	Switch Group			Notes
+	1692398196	Coffee_08	BGMSelector_Base			
+	1692398197	Coffee_09	BGMSelector_Base			
+	1692398200	Coffee_04	BGMSelector_Base			
+	1692398201	Coffee_05	BGMSelector_Base			
+	1692398202	Coffee_06	BGMSelector_Base			
+	1692398203	Coffee_07	BGMSelector_Base			
+	1692398205	Coffee_01	BGMSelector_Base			
+	1692398206	Coffee_02	BGMSelector_Base			
+	1692398207	Coffee_03	BGMSelector_Base			
+	1709175791	Coffee_10	BGMSelector_Base			
+	134925789	Spider_Rifle	gunType			
+	282628179	SHOT_Storm	gunType			
+	546945295	Bow	gunType			
+	693068043	Spider_Ring	gunType			
+	763230021	MP7	gunType			
+	782826392	Default	gunType			
+	796049858	RPG	gunType			
+	796049870	RPK	gunType			
+	862615877	UZI	gunType			
+	929579150	VPO	gunType			
+	1115560166	MMG	gunType			
+	1230993568	AK102	gunType			
+	1547201458	AR_Storm	gunType			
+	1678119313	MP155	gunType			
+	1685527056	MF	gunType			
+	1761483830	SMG_Storm	gunType			
+	1880439950	Magic	gunType			
+	2069185223	UAK45	gunType			
+	2110573384	AK74	gunType			
+	2160906242	AK47	gunType			
+	2565141664	CubeGun	gunType			
+	2985573183	Glick	gunType			
+	3666971986	Hand	gunType			
+	3693315375	Balett	gunType			
+	1930240631	Robot	VoiceType			
+	2041272125	Wolf	VoiceType			
+	2617048678	Duck	VoiceType			
+	4251222990	Chicken	VoiceType			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+	2782712965	Level			\Default Work Unit\Level	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GameStatus			
+	1852808225	Playing	GameStatus			
+	3542857139	LoadingLevel	GameStatus			
+	3604647259	MainMenu	GameStatus			
+	748895195	None	Level			
+	1291433366	Base	Level			
+	2948602617	Farm	Level			
+	3868301247	Customs	Level			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	535730961	ImportantSFXMeter			\Default Work Unit\ImportantSFXMeter	
+	574295728	ExpDelta			\Default Work Unit\ExpDelta	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	218867527	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\GunHandling\ReloadSuccess\Silence\Silence	
+	593799245	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Silence\Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7320951	HitMarker	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\BD\{BD72916D-CC5B-942E-18B7-C8F5F6EA0BF1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\FunctionalSFX\HitMarker		7054
+	9797041	Body Fall 7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\18\{18959125-B311-5ACA-D751-F179134FE859}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\Explosions\Explode_Sandbags\Body Fall 7		7524
+	19911875	CoffeeShop - Decaf Dreaming	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\4C\{4C6BFD67-6888-DC49-8BE2-36A9A175AB04}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_01\01 - CoffeeShop - Decaf Dreaming\CoffeeShop - Decaf Dreaming		3658418
+	20185690	Item_Default_1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D3\{D3903142-106D-0FD1-EBE3-E4F273F224F6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Misc\Item_Drop\Item_Default_1		5723
+	22376525	Explosion Grenade 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\23\{2328985B-B277-6442-C6DB-E1562CE6AEA5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\Explosions\Explode\Explosion Grenade 3		40165
+	27853282	Bloody punches 8	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\AB\{AB98CAB4-0A35-2F57-7331-E6AE5B853FA3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 8		5723
+	29134669	Charge	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\A7\{A73C73D8-5B9B-6BDF-544A-B3DF3C7259BF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Charge		40856
+	36491201	Wood_Debris	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\1C\{1C855CB7-7977-DE58-E163-8D1E79F703A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Building\Wood_Debris		13673
+	36786283	MasterKeyRegister	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\CA\{CA9D4531-3466-9AF6-9C1D-AFF015AE5F23}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\MasterKeyRegister		28045
+	37914011	Bloody punches 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\87\{8711B561-AD26-6396-4AC7-BEAAA37204FC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 4		10664
+	44537550	Arrow Flying Past 14	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\70\{707E832A-E598-FD00-80CF-86743800BDA2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Bow Arrow Fly Past\Arrow Flying Past 14		4349
+	48254929	Coin in purse shaking 8	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\8B\{8B9BD24D-D240-489E-B039-B6275FE6DD03}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 8		7148
+	65892684	Animals, Farm, Bird, Chickens SND11274 12	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\07\{0744719C-7E4C-DB8C-344B-934CE2470161}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Alert\Chicken_Alert\Animals, Farm, Bird, Chickens SND11274 12		3543
+	67967556	Wind, Vegetation, Forest, Gentle Breez, Leaves Rustling 02 SND65705 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\FB\{FBBD3F23-449D-21F8-4A68-E7BD1D78D901}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Wind, Vegetation, Forest, Gentle Breez, Leaves Rustling 02 SND65705 1		3054559
+	68837123	SpiderBot_02	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\0A\{0A5A7592-9FF9-D445-EBB1-90D75799ED00}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Alert\SpiderBot_Alert\SpiderBot_02		17767
+	71446017	CoffeeShop - Espresso Ensemble	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F5\{F5A284A2-809F-A75F-790A-67EF6BB0D4A8}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_05\05 - CoffeeShop - Espresso Ensemble\CoffeeShop - Espresso Ensemble		3035570
+	76174373	Body armor 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\00\{001DF97E-487C-D5FA-83B6-C2B970704965}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 1		3749
+	79585896	RPGLaunch	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\26\{26F9E13B-E3F4-0C39-1F54-AA55CA95EEE7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\RPG\RPGLaunch		22577
+	86590688	Body armor 8	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\B2\{B2FEB770-DD71-F69F-0488-25A5F43C7E14}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 8		4150
+	89119552	Coin in purse shaking 7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F8\{F8145FAD-CBBE-00F1-74C0-41B53CD6B7BA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 7		10756
+	93212060	Silenced Pistol	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\33\{3365335F-6DBC-F3BF-8F42-E260D72AC069}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\ShootSilence\Silenced Pistol		6257
+	100376852	Dog Cries 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\19\{199C8DDD-6578-E0E4-6BD4-8352F468CAC3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Dog_Cry\Dog Cries 4		11788
+	110033066	Construction	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F2\{F207763C-5AE9-2F12-4238-19B7F5936EB7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Building\Construction		34147
+	110343228	SpiderBot_05	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F4\{F44C64FA-1F27-629B-CC5C-B1985963706C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\SpiderBot_Scream\SpiderBot_05		6080
+	116048674	Communications, Radio, Tuning Between Stations, Static 01 SND33148 9	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\EB\{EB46B341-653F-5156-0FFF-469C5ABA04FC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Beeps\Communications, Radio, Tuning Between Stations, Static 01 SND33148 9		7531
+	117495361	Releasing string (Bow) 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\35\{35C0AEFF-C221-0CC8-D79E-8C104B771AF0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Bow String Release\Releasing string (Bow) 3		7290
+	126901265	Duck Quacks	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\27\{271259AC-E61D-7161-5C94-C69ED3746A30}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Duck_Scream\Duck Quacks		5849
+	130790692	Coin in purse shaking 11	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\3A\{3AEE40A1-AF25-FF6F-F1C0-7D69F862A78F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 11		20050
+	132207604	HitMetal_03	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\02\{02CB0668-A071-2207-E6F2-72C0831F90D5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Metal\HitMetal_03		11359
+	141851360	SpiderBot_03	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\91\{916D6B35-0CE5-37AF-DCB2-9BECC1DB4825}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Talk\SpiderBot_Talk\SpiderBot_03		17130
+	145383281	Dog Cries 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\17\{17B0548E-73F8-BADB-9BCD-53C623DEDDCF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Dog_Cry\Dog Cries 2		11206
+	174116885	SpiderBot_09	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\7E\{7E2325F8-4C82-C318-1B6F-044F42FC6437}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Suspicion\SpiderBot_Suspicion\SpiderBot_09		7305
+	174596853	Bullet Flyby 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\BA\{BA58B22F-8234-863F-EBA8-F4A397E02D1E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 5		5317
+	184030266	Sniper Shot (50 cal) - Barrett M82	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\9F\{9F3CEE61-0E87-130E-A99A-DAF5A7FEE543}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Balett\Sniper Shot (50 cal) - Barrett M82		65516
+	189123618	FootSteps_Designed 1-Heavy Running  Dirt footsteps 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\18\{182A051D-66A0-CA1B-9AB2-EF050892B58B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Character\FootSteps\FootSteps_Designed 1-Heavy Running  Dirt footsteps 4		3976
+	196028337	Body Fall 11	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\5C\{5C284850-5BEC-90A5-6A81-0EEF8428A476}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\Explosions\Explode_Sandbags\Body Fall 11		6472
+	203446697	Machines, Appliance, Stove, Induction, Turn On, Beep SND2464	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\CA\{CA758D9C-A5F9-2EA7-C1C4-AE6DD9131234}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Beeps\Machines, Appliance, Stove, Induction, Turn On, Beep SND2464		36488
+	204889697	Objects, Medical, Medicine, Vitamin C Tablets, Plastic Jar, Close Lid SND30770 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\9F\{9F257650-597E-A88B-7CD6-E158BE7A7A2F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Objects, Medical, Medicine, Vitamin C Tablets, Plastic Jar, Close Lid SND30770 2		8858
+	209904735	Objects, Misc, Cash Register, Kaching, Bell, Metallic, Variations 01 SND101311	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D3\{D307C0A7-F665-5C86-F85F-957D5F8A9FD0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Trading\Objects, Misc, Cash Register, Kaching, Bell, Metallic, Variations 01 SND101311		15091
+	210546792	Bloody punches 10	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\7F\{7FC28C9C-D488-FCDE-516A-EE36C7102B62}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 10		8024
+	216666415	Wolf barks 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\05\{056DE522-4A21-A3A4-6C22-46E6AA6E280B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Alert\Wolf_Alert\Wolf barks 2		7626
+	220034586	Arrow Flying Past 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\31\{317AF417-237B-E7A5-5A6A-5DEBDCD5A29D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Bow Arrow Fly Past\Arrow Flying Past 2		5667
+	221777062	Mechanical, Click, Megaphone, Power Switch SND0931	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\30\{30DBEDDE-4B96-EF1D-3478-6ED02A12F948}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Mechanical, Click, Megaphone, Power Switch SND0931		9122
+	236386940	Bullet Flyby 10	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\91\{91D6893D-93A4-D552-52B2-D15143A32692}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 10		4793
+	241239629	Pistol Shot 26	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\B1\{B1D583A5-F604-BB2F-02F0-74815A2F2B4B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\UZI\Pistol Shot 26		19205
+	249008114	Coin in purse shaking 9	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\84\{84C926EA-7287-880B-8467-3DB53A7861F7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 9		8252
+	264656624	Coin in purse shaking 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\EB\{EB38B1A3-167E-63E5-BB5C-C8E580B87B21}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 2		13578
+	265800983	Body armor 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\36\{368D084D-2D55-30FB-E2A6-8DB94E55C5A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 3		4486
+	277322067	Pop sound 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\7A\{7AA00935-129A-148A-B9AD-805747451571}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Pop sound 5		7074
+	277542057	FootSteps_Designed 5-Heavy Running  Dirt footsteps 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\70\{701C021A-908D-FE0B-37F6-F9841837DA6C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Character\FootSteps\FootSteps_Designed 5-Heavy Running  Dirt footsteps 3		3471
+	278498812	BunkerGate_Close	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\18\{1869A514-5944-7A81-8881-AE0C6FBD3513}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Misc\BunkerGate_Close		46276
+	287296357	Bloody punches 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\C2\{C2C94A70-2BE7-6283-9FCE-8378EEAADE48}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 3		8686
+	303730784	Releasing string (Bow) 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F9\{F9094EE3-D16C-CF63-F2D6-15C873C7CB3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Bow String Release\Releasing string (Bow) 4		6069
+	304997002	Bullet Flyby 8	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\2A\{2AAE216C-D5B6-C9D8-9A6F-819E38DC0812}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 8		5626
+	316510168	Bloody punches 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F6\{F6B1253C-2A64-7B9C-626D-DA4FB4576AC4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 1		15521
+	324134821	Communications, Typewriter, Olympia, Bell, Ding, Spool SND11887 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\8B\{8B25EE26-73C6-7023-3FB6-88F4B7647A90}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Communications, Typewriter, Olympia, Bell, Ding, Spool SND11887 1		30658
+	327611027	SpiderBot_10	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\10\{10F164A3-D06F-70C1-123D-2216C59168D8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\SpiderBot_Scream\SpiderBot_10		24076
+	332831887	Communications, Radio, Tuning Between Stations, Static 01 SND33148 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\05\{055A3099-BCB8-3B2E-556A-EF26534C9B3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Beeps\Communications, Radio, Tuning Between Stations, Static 01 SND33148 5		6748
+	357034933	Wolf barks 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D7\{D7440AB3-10C4-5030-C952-DD6CD4241AA9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Alert\Wolf_Alert\Wolf barks 3		14528
+	358516318	Machine Gun Shot 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F0\{F02C6258-413E-AA44-1908-133C29B3ECF3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\UAK45\Machine Gun Shot 4		10969
+	365051613	FootSteps_Designed 4-Heavy Running  Dirt footsteps 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\79\{79EBFC72-CE0B-0835-AEB3-ACD116A64F1A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Character\FootSteps\FootSteps_Designed 4-Heavy Running  Dirt footsteps 2		3248
+	371833062	Body armor 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\FF\{FF6C6ECF-24A9-94D7-2A30-935EB3093266}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 6		2840
+	390124819	CoffeeShop - Java Jam	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\E2\{E2FC7F67-4EC3-1BCF-C421-F1C41E48C6DA}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_06\06 - CoffeeShop - Java Jam\CoffeeShop - Java Jam		3480303
+	392661579	Dog Cries 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\59\{59613B76-976F-3CBD-47B4-5983CB1F4E0C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Dog_Cry\Dog Cries 1		14060
+	395657464	Shotgun Insert	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\90\{90047CEA-BD74-B81C-A722-F6BFC8DA1FF2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\GunHandling\ReloadStart\Shotgun Insert		7035
+	400851882	Sci Fi Shotgun 8	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\B4\{B480A72A-1498-3FB7-D367-0BC11FA3EC45}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\CubeGun\Sci Fi Shotgun 8		11746
+	402498527	Body armor 7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\DA\{DA77DCB3-741F-E4B3-3E30-E3D1A8A908FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 7		3818
+	407625295	Animals, Farm, Bird, Chickens SND11274 10	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\E5\{E555B0E8-0FCD-F777-B216-7EB4397A0B0C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Chicken_Scream\Animals, Farm, Bird, Chickens SND11274 10		4430
+	412943028	CoffeeShop - Cappuccino Cadence	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\B4\{B458082E-7964-2417-F118-194CB47CBC39}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_03\03 - CoffeeShop - Cappuccino Cadence\CoffeeShop - Cappuccino Cadence		4036544
+	435198043	SpiderBot_12	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\A1\{A163A87C-0B8B-179F-94DD-7D7387E5CC0F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Talk\SpiderBot_Talk\SpiderBot_12		25560
+	449474366	Animals, Farm, Bird, Chickens SND11274 11	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\6C\{6C1D700B-C198-17A2-8CA5-8D9FFF0952A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Alert\Chicken_Alert\Animals, Farm, Bird, Chickens SND11274 11		10879
+	452660535	ExpUp	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\09\{094A15B0-3253-C915-3AC9-BB671AF00E07}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ExpUp		5613
+	458956847	SpiderBot_04	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\BE\{BE610BF8-38F1-35D5-7001-1164C4187401}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Talk\SpiderBot_Talk\SpiderBot_04		9000
+	471848217	Duck Quacks_1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\AB\{ABAD4EA7-AC1A-69CD-5FE4-BF3734C9D028}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Duck_Scream\Duck Quacks_1		10413
+	482854088	CoffeeShop - Mocha Melodies	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F1\{F1407821-438D-CF8D-DEA2-77128BA2E5F4}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_07\07 - CoffeeShop - Mocha Melodies\CoffeeShop - Mocha Melodies		4863163
+	485472178	Duck Quacks_2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F4\{F4D5634C-4B50-079B-DCCA-06D29AB1A3B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Duck_Scream\Duck Quacks_2		4114
+	486091646	Coin in purse shaking 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\58\{58DAC6D5-D17C-32EC-4906-BAF609110D1C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 3		9492
+	486216262	Body Fall 9	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\C6\{C6C45EFA-138C-E884-89A6-1B1DD9606F5B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\Explosions\Explode_Sandbags\Body Fall 9		7336
+	490717407	Body Fall 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\40\{408B72FB-DA67-407F-8C9E-9581E4050158}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\Explosions\Explode_Sandbags\Body Fall 6		6519
+	497841887	Robots, Vocal, Tonal Chirps, Beeps & Clicks, Short Variations SND111729	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\4E\{4E7AF8F3-6944-F0E9-B7AB-3DE07D8DF82B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Robots, Vocal, Tonal Chirps, Beeps & Clicks, Short Variations SND111729		10384
+	503008096	CoffeeShop - Barista Ballad	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\06\{0631FBC0-1509-2E4C-914A-878865FEFCA7}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_02\02 - CoffeeShop - Barista Ballad\CoffeeShop - Barista Ballad		4194583
+	510825001	HitMetal_01	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\0D\{0D11F572-FCA4-7603-D513-74D8D29199D3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Metal\HitMetal_01		13500
+	511443708	Dry Shot 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D0\{D0EE7E5F-1376-7AF4-D8CA-F62DFEBE03EF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Dry Shot 4		8735
+	519849601	Bloody punches 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\0A\{0AB285D8-1C3F-BF1E-323E-067B119DABC3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 6		13975
+	527975358	SpiderBot_07	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\0E\{0E532ED6-6E0A-78C0-DE0F-905E39201928}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Suspicion\SpiderBot_Suspicion\SpiderBot_07		10861
+	529395281	Ambience_Base_AC	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\46\{46241FDC-B04E-9517-F5B2-8ECA3B7CA265}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_Base_AC		835005
+	530782883	Silenced Sniper RIfle 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\8D\{8DAAACC2-FE81-E39D-F224-29A1606AEA61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\ShootSilence\Silenced Sniper RIfle 3		21045
+	532515388	Head exploding 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\45\{45D54B07-BDC1-5A5C-CCE0-3015CF731FC9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\HeadExploding\Head exploding 4		11659
+	533183327	Body armor 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\09\{099258AF-4193-C878-5644-CD9E2F593A19}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 4		5710
+	534426448	Animals, Farm, Bird, Chickens SND11274 9	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D4\{D4D8D113-478B-EA60-033C-C7D61F3F8BBE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Chicken_Scream\Animals, Farm, Bird, Chickens SND11274 9		3088
+	536307130	Shotgun Shot 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\43\{43F751B3-4871-CE3E-0B79-A4CBF82E7756}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Hand\Shotgun Shot 5		16864
+	539124178	Animals, Farm, Bird, Chickens SND11274 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\C8\{C8A555A7-24DA-B374-F855-8C9EF9F2AA0B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Talk\Chicken_Talk\Animals, Farm, Bird, Chickens SND11274 5		3609
+	546682597	Body Fall 10	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\42\{428EA3A9-0FF4-0308-722A-DE31DD56C97F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\Explosions\Explode_Sandbags\Body Fall 10		6698
+	546857217	Startup	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\8D\{8D6C8203-7080-9B80-AF90-B38AA3AA03B3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Startup		29464
+	549644978	Communications, Radio, Tuning Between Stations, Static 01 SND33148 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\71\{7117F5C2-FCB7-653D-5D5C-46EB5A9F66D8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Beeps\Communications, Radio, Tuning Between Stations, Static 01 SND33148 4		13403
+	553018553	Head exploding 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\43\{432150C3-92F0-0522-0FD9-EC51F4BE7173}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\HeadExploding\Head exploding 3		14382
+	559669290	Communications, Radio, Tuning Between Stations, Static 01 SND33148 7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\A8\{A8F026BC-7E09-B029-44B6-B63597EDD691}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Beeps\Communications, Radio, Tuning Between Stations, Static 01 SND33148 7		9890
+	569829785	Pulling string back (Bow) 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\34\{34086007-ACAD-A313-0839-E1F0D563EBA1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\GunHandling\ReloadStart\Bow String Draw\Pulling string back (Bow) 4		7120
+	573459257	Pop sound 9	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\02\{02F1FD84-CC4F-E0FC-C5F9-52256DE4F03F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Pop sound 9		5617
+	576936922	Body armor 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D2\{D26B5938-9A7E-63B7-1B02-F6CB318D7EA5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 2		2470
+	583188180	Sniper Shot 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\1A\{1AE5BD60-D39D-72BD-1BA5-7091DD98A8FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\VPO\Sniper Shot 3		39476
+	584552450	Communications, Radio, Tuning Between Stations, Static 01 SND33148 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\DE\{DE343180-7BAA-C242-E7B2-262807E87DAA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Beeps\Communications, Radio, Tuning Between Stations, Static 01 SND33148 6		8399
+	590415038	Head exploding 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\71\{716A145A-571B-FD87-D562-F63E05FC6F7F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\HeadExploding\Head exploding 1		14422
+	594219281	Bullet Flyby 9	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\C1\{C1924219-982D-8E6F-C848-73E2EC271F07}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 9		5753
+	603627900	Head exploding 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\11\{11B2C854-86FB-DFEA-DB73-FE85978CCD73}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\HeadExploding\Head exploding 5		8538
+	604838614	Spear throw	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\BB\{BBB232DA-DDC0-DB66-985A-5F3028851DBD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\MeleeAttack\MeleeAttack_Slash\Spear throw		19789
+	608460847	Item_Default_5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\DA\{DA21EC77-4569-7B49-CF6A-D63AFCEC3614}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Misc\Item_Drop\Item_Default_5		5543
+	612331370	Wolf barks 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\99\{9970B34D-FFB3-3E94-FE27-C52B22E6E745}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Alert\Wolf_Alert\Wolf barks 4		10480
+	613217537	Bloody punches 7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\AF\{AF7293D4-B671-AF0B-D49F-8B18ED404C39}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 7		7385
+	613265015	Coin in purse shaking 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\8E\{8E4DBF22-D4B5-D2CB-73DC-829D2989E527}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 4		10475
+	626296500	Spear throw 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\AC\{AC60EBE5-63E9-F711-01FD-ADE371C29EC5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\MeleeAttack\MeleeAttack_Slash\Spear throw 6		19004
+	636424345	Bullet Flyby 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\A9\{A9AD3E96-2E7B-6F56-6703-20C45BF074BF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 3		6319
+	636532548	MagicShot	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\B5\{B5AB163A-6D64-C2F1-F7B2-FF621BBD6151}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\MagicShot		7044
+	639866834	Dog Attacks_Howling	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\7F\{7FD93750-D0E6-8F6C-C141-225A0BFE93A0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Suspicion\Dog_Suspicion\Dog Attacks_Howling		10523
+	644991027	Chiken_Scream_JNTM	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\55\{55F7C629-4988-4B3E-B0ED-75ECAD218E52}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Chicken\Chiken_Scream_JNTM		18101
+	648788690	Silenced Sniper RIfle 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\4E\{4ECBBBD4-1240-683B-C0B9-9AB6D8EBE324}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\ShootSilence\Silenced Sniper RIfle 2		20020
+	656342441	SpiderBot_08	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\E8\{E8756BDD-E7CA-A4FA-06AD-3DBE4C11E07F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Alert\SpiderBot_Alert\SpiderBot_08		25213
+	660666981	FootSteps_Designed 3-Heavy Running  Dirt footsteps 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\4F\{4F92A411-4605-D36E-B25D-41BBE3B45001}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Character\FootSteps\FootSteps_Designed 3-Heavy Running  Dirt footsteps 1		3206
+	668279586	Releasing string (Bow) 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\A9\{A9579142-B26B-B986-F805-63C35F036BDB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Bow String Release\Releasing string (Bow) 2		7919
+	678650589	CoffeeShop - Smooth Sip	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D5\{D549EAA5-0609-CADF-9130-6E00F694395D}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_10\10 - CoffeeShop - Smooth Sip\CoffeeShop - Smooth Sip		3034749
+	683168212	Releasing string (Bow) 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\29\{2994B5E1-17FF-FF46-288E-8932B10FA351}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Bow String Release\Releasing string (Bow) 1		8072
+	685310656	Coin in purse shaking 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\38\{385F6C49-3638-05EE-74A6-578FBFE5D4CE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 5		5803
+	690241258	Animals, Farm, Bird, Chickens SND11274 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D7\{D775703A-145B-27DC-A750-95ED891A2774}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Suspicion\Chicken_Suspicion\Animals, Farm, Bird, Chickens SND11274 6		3764
+	692143223	Animals, Farm, Bird, Chickens SND11274 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\22\{22F0EDB1-80E1-B348-C9A3-FF47B0BEC47E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Talk\Chicken_Talk\Animals, Farm, Bird, Chickens SND11274 4		2746
+	697201772	Head exploding 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D5\{D5B02E77-529F-527F-4EF3-FE2F6D8E5106}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\HeadExploding\Head exploding 2		21164
+	698770641	Pistol Shot 12	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F7\{F7C389F8-5C5B-B892-D251-C8B4445E7840}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\Glick\Pistol Shot 12		22495
+	710510559	FootSteps_Designed 2-Heavy Running  Dirt footsteps 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\9E\{9E98DB9E-C5A0-143E-78E8-99F785530031}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Character\FootSteps\FootSteps_Designed 2-Heavy Running  Dirt footsteps 5		2886
+	711710139	UI_PressStart	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\E6\{E6046214-8413-043D-1F77-60BBC09DDFFE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\MainMenu\UI_PressStart		60983
+	714070494	Silenced Rifle	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\15\{15FDF0D1-E510-3C20-3254-8005B6067769}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\ShootSilence\Silenced Rifle		13939
+	722640531	Body armor 10	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\49\{490E3EDE-304C-E065-B1EB-CE639E9BA7FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 10		3447
+	726040316	SpiderBot_11	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\8A\{8A1D9129-A8FB-1233-23FB-91B2E560E1F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Talk\SpiderBot_Talk\SpiderBot_11		11525
+	743973973	Item_Default_4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\78\{78E2246C-8D29-08A4-E958-66DC78D720E4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Misc\Item_Drop\Item_Default_4		5933
+	753917079	Item_Default_3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\68\{681321E6-F537-8BAA-1D96-F377F5AEDFE7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Misc\Item_Drop\Item_Default_3		6718
+	758754456	Shotgun Shot 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\1A\{1A5213E2-882E-909E-511D-CB5E0E74A41B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\MP155\Shotgun Shot 2		18788
+	774061347	Coin in purse shaking 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\0E\{0EFF4D82-E6B9-CBA5-EA7C-17B98CAC6FB3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 6		7601
+	776325924	Explosion Grenade 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\63\{637EED82-EC7D-DE6B-60B9-990D05087B04}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\Explosions\Explode\Explosion Grenade 4		52457
+	792833547	Item_Default_2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\79\{79098C74-ED79-AA0B-35DA-BAF3BA69DA58}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Default\Item_Default_2		8858
+	794039379	Spear throw 7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\54\{547E5EA2-B550-6815-15C0-6E9220278249}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\MeleeAttack\MeleeAttack_Slash\Spear throw 7		9082
+	802081089	eDeathExplode	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\9D\{9D45AFB0-2CE0-99E3-87EC-4CF6171B8936}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\DeathExplode\eDeathExplode		11537
+	803539996	Wolf barks 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\95\{9547DE8E-7800-7C6D-6701-A484E9C86C60}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Talk\Wolf_Barks\Wolf barks 1		21804
+	809753846	Bullet Flyby 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\58\{58854F9F-A3A4-45A9-3F4F-09B51E72ACC1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 1		5278
+	813212331	CritHit	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\D2\{D2D396A9-EF69-6E05-0FF3-D459FB953C80}.wem		\Actor-Mixer Hierarchy\Default Work Unit\FunctionalSFX\CritHit		7433
+	834044780	Machine Gun Shot 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\A2\{A205198C-6198-5FFB-6F8A-468EF9F16111}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\MP7\Machine Gun Shot 6		11541
+	836955070	Animals, Farm, Bird, Chickens SND11274 7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\75\{753FE1AB-D256-ADBA-81A0-B8F3419ACD79}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Suspicion\Chicken_Suspicion\Animals, Farm, Bird, Chickens SND11274 7		3201
+	837494635	KillMarker_7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F2\{F28028F2-97BE-6E22-1C0E-3A1B3C607CF2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\FunctionalSFX\KillMarkers\KillMarker_7		23224
+	842028081	SpiderBot_06	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\7F\{7FE3D016-1BC1-AB75-F48F-3BFA292F2220}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Alert\SpiderBot_Alert\SpiderBot_06		15611
+	842289803	Guns, Mechanism, Shotgun, Load Bullet, Reload SND6280 1	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\0D\{0D55163E-E1A5-5E78-F474-4A04AFE84AAE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\GunHandling\ReloadSuccess\Guns, Mechanism, Shotgun, Load Bullet, Reload SND6280 1		2397
+	859977310	Assault Rifle Shot 17	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\F8\{F89E6FBC-604B-1503-F204-4022E9EC9FE4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\MF\Assault Rifle Shot 17		15256
+	871307326	Body Drop 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\1E\{1E86E949-D8DD-2796-9734-6F35264D6120}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Character\Body Drop 2		11628
+	874670015	Body armor 9	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\0D\{0D5ED7BD-421D-8740-F53E-1A6C3BFF3BA1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 9		2876
+	876786753	Item_Default_6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\0A\{0A26CC10-A040-6202-B570-1D4BC49BFE2B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Default\Item_Default_6		5585
+	878985769	CoffeeShop - Cool Caffeine	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\C0\{C06180AF-3B25-1D5D-D2C7-E89737BC47BA}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_04\04 - CoffeeShop - Cool Caffeine\CoffeeShop - Cool Caffeine		3374940
+	879213493	Assault Rifle Shot 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\38\{38C590D9-372A-86C8-05B8-6E9CE46E07E1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\AK47\Assault Rifle Shot 2		18483
+	900280587	Bullet Flyby 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\94\{94A65A7D-1550-45A4-D692-A9E6427C5271}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 2		3196
+	912815158	Bullet Flyby 4	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\20\{20689C59-312A-1DD1-D486-2E065385A0B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 4		5948
+	918730491	CoffeeShop - Single Shot Serenade	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\36\{36FBAF3A-7D39-CB5F-0622-7E5BA1A6BB96}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_09\09 - CoffeeShop - Single Shot Serenade\CoffeeShop - Single Shot Serenade		2867804
+	936518489	CoffeeShop - Roast Rhapsody	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\C4\{C43E2178-9BE9-830F-87B6-CD85505821E8}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\BaseBGMSelector\Coffee_08\08 - CoffeeShop - Roast Rhapsody\CoffeeShop - Roast Rhapsody		3649858
+	941880565	Bullet Flyby 7	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\41\{41571051-3A01-701D-42B5-36D858B9D733}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 7		7029
+	947210769	Animals, Farm, Bird, Chickens SND11274 8	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\A4\{A4C16E3A-81C2-03AF-3A77-7BC7BA4CCACE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\Chicken_Scream\Animals, Farm, Bird, Chickens SND11274 8		5068
+	948373117	Coin in purse shaking 10	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\1A\{1A1F9451-6F98-3786-852E-A1B33234D888}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Items\Item_Coins\Coin in purse shaking 10		7563
+	948591536	SpiderBot_01	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\75\{75550F89-E058-D09E-054C-0EDB58C39999}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Scream\SpiderBot_Scream\SpiderBot_01		23426
+	949430359	Bloody punches 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\AE\{AE9510D9-61BD-57AC-D7D4-FFF5726C37AF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 2		10559
+	952642372	Zigeunerweisen VasaPrihoda1927pabloDeSarasate78rpmInThePublicDomain	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\9C\{9C54BC42-388B-1D43-6F93-DF396BE503B6}.wem		\Interactive Music Hierarchy\Default Work Unit\Zigeunerweisen\Zigeunerweisen VasaPrihoda1927pabloDeSarasate78rpmInThePublicDomain		5095672
+	971531400	Body Fall 8	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\8F\{8F75E87E-1255-6ADB-38FB-79E97B4E0D64}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\Explosions\Explode_Sandbags\Body Fall 8		7724
+	975385094	Communications, Radio, Tuning Between Stations, Static 01 SND33148 8	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\6E\{6EFF4787-DE8B-A0FD-CD36-6DE82CCDF641}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Beeps\Communications, Radio, Tuning Between Stations, Static 01 SND33148 8		6990
+	975501828	Wolf barks 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\AF\{AF6F11FA-57D0-C2D5-6D1E-82164B999258}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Talk\Quaks\Quak_Talk\Wolf_Barks\Wolf barks 5		6726
+	992855397	Bloody punches 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\3E\{3EDD1CF8-A6A5-C4D7-25A5-BED7B5728857}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 5		6762
+	997594158	BunkerGate_Open	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\C9\{C9964537-CCAC-5320-5760-2F3AC8CF023E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Misc\BunkerGate_Open		31433
+	1003545841	Mag In 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\4A\{4A35CBDF-954D-5061-3865-834BE22F6E98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\GunHandling\ReloadSuccess\Reload_Success_Default\Mag In 2		5120
+	1007284813	Pop sound 17	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\C5\{C59FD829-AF95-C871-ECF4-979E5EA21F2F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Pop sound 17		7670
+	1007805097	Bullet Flyby 6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\AA\{AA31CAA2-BEC5-F337-9D09-BC89AB635BE0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletFlyby\Bullet Flyby 6		7604
+	1028169196	KillMarker_6	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\13\{13591F4A-9E95-F948-2310-D18C98F69514}.wem		\Actor-Mixer Hierarchy\Default Work Unit\FunctionalSFX\KillMarkers\KillMarker_6		27735
+	1035852814	CameraShutter	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\08\{086D026F-D4EE-9EAE-D58C-C70C0FEB8E21}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Camera\CameraShutter		15469
+	1037812107	Machine Gun Shot 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\85\{85593057-2244-AA66-427E-5B591AB247E0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\Shots\Shoot\RPK\Machine Gun Shot 3		11844
+	1038163334	Communications, Radio, Tuning Between Stations, Static 01 SND33148 3	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\CB\{CB4DD103-1B5D-8818-75FF-9E1B539914E9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Ambience_RandomBeeps\Beeps\Communications, Radio, Tuning Between Stations, Static 01 SND33148 3		11851
+	1046766604	HitMetal_02	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\1A\{1A3407E8-F188-0A27-3BC5-2CDBC1417D53}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Metal\HitMetal_02		14609
+	1054394225	Body armor 5	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\85\{8542015F-4322-946A-3869-2539CFC61999}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_BodyArmor\Body armor 5		3033
+	1069479233	Bloody punches 9	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\82\{82A968BB-8CF6-5C3D-1080-134C8B49268E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Combat\BulletHits\BulletHit_Blood\Bloody punches 9		9482
+	1070930251	Objects, Book, Document, Thick, Many Pages, Search Through, Find Page SND17731	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\56\{5638C803-380F-30CB-BF38-BBBE8FD9BE50}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Objects, Book, Document, Thick, Many Pages, Search Through, Find Page SND17731		9304
+	1071287956	Bullet In 2	E:\Repos\Duckov_2\Duckov2\Duckov\Duckov_WwiseProject\.cache\EC\{EC44F402-13D9-2190-8C16-B16B5FAF6C4E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhysicalSFX\Gun\GunHandling\ReloadStart\Reload_Start_Default\Bullet In 2		5774
+

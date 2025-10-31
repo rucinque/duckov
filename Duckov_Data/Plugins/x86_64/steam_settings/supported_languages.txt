@@ -1,0 +1,11 @@
+brazilian
+english
+french
+german
+japanese
+koreana
+latam
+russian
+sc_schinese
+schinese
+tchinese
