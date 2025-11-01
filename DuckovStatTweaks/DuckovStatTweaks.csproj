@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>DuckovStatTweaks</AssemblyName>
+    <RootNamespace>DuckovStatTweaks</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <!-- Set DuckovPath via an MSBuild property when building locally, e.g.:
+       dotnet build -p:DuckovPath="C:\\Games\\Duckov" -->
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>$(DuckovPath)\Duckov_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(DuckovPath)\Duckov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Duckov.Modding">
+      <HintPath>$(DuckovPath)\Duckov_Data\Managed\Duckov.Modding.dll</HintPath>
+    </Reference>
+    <Reference Include="TeamSoda.Duckov.Core">
+      <HintPath>$(DuckovPath)\Duckov_Data\Managed\TeamSoda.Duckov.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ItemStatsSystem">
+      <HintPath>$(DuckovPath)\Duckov_Data\Managed\ItemStatsSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
